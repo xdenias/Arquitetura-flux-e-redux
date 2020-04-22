@@ -7,6 +7,7 @@ import { MdShoppingBasket } from 'react-icons/md';
 import logo from '../../assets/images/logo.svg';
 
 function Header({ cartSize }) {
+  console.tron.log('fala pae');
   return (
     <Container>
       <Link to="/">
